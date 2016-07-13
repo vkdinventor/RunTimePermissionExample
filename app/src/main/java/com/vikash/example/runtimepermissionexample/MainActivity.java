@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void callMe(View v) {
-        Log.v("TAG ","call me called");
+        Log.v("TAG ", "call me called");
         if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE)
                 != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(MainActivity.this,
