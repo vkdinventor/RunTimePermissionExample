@@ -7,7 +7,7 @@
     tools:context="com.vikash.example.runtimepermissionexample.MainActivity">
 
     <Button
-        android:text="Click here to test runtime permission for Call"
+        android:text="Click here to test runtime\n permission for Call"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
